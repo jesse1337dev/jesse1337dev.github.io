@@ -8,8 +8,7 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+Have questions?  Contact DataWhale at:
 
-[email@domain.com](mailto:email@domain.com)
+[opensource@datawhale.club](mailto:opensource@datawhale.club )
