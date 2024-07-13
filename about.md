@@ -8,20 +8,22 @@ DataWhale Summer Camp, founded in 2018, is China’s largest open-source AI lear
 
 ### More Information
 
-- Free Enrollment: No cost to participate.
-- Prestigious Awards: Earn industry-recognized certificates.
-- Expert Instruction:Learn from top industry professionals.
-- Hands-On Projects: Gain practical skills and build your portfolio.
-- Community Support: Access help from over 200 teaching assistants. 
-# Key Dates:
- Registration: July 21 - July 27, 2024
- 
-### Contact Datawhale
+- **Free Enrollment:** No cost to participate.
+- **Prestigious Awards:** Earn industry-recognized certificates.
+- **Expert Instruction:** Learn from top industry professionals.
+- **Hands-On Projects:** Gain practical skills and build your portfolio.
+- **Community Support:** Access help from over 200 teaching assistants.
 
-[opensource@datawhale.club](mailto:opensource@datawhale.club )
+## Key Dates
 
+- **Registration:** July 21 - July 27, 2024
 
-### Publisher: 
-Name: Ait Haddou Yasmine
-Role: Student at Northwestern Polytechnical university, China.
-email: [jessahcollabs1@gmail.com](mailto:jessahcollabs1@gmail.com)
+## Contact DataWhale
+
+- **Email:** [opensource@datawhale.club](mailto:opensource@datawhale.club)
+
+## Publisher
+
+- **Name:** Ait Haddou Yasmine
+- **Role:** Student at Northwestern Polytechnical University, China
+- **Email:** [jessahcollabs1@gmail.com](mailto:jessahcollabs1@gmail.com)
