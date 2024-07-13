@@ -87,4 +87,4 @@ exclude:
   - CNAME
   
   # Remote theme
-remote_theme: jekyll/minima
+remote_theme: jekyll/Scriptor
