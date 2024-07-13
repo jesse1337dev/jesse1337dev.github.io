@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-DataWhale Summer Camp, founded in 2018, is China’s largest open-source AI learning community. Our mission, "For the learner, with the learner," is to provide accessible, high-quality education in AI and tech. Join us for a transformative learning experience with courses in machine learning, NLP, CV, and more.
+Datawhale Summer Camp, founded in 2018, is China’s largest open-source AI learning community. Our mission, "For the learner, with the learner," is to provide accessible, high-quality education in AI and tech. Join us for a transformative learning experience with courses in machine learning, NLP, CV, and more.
 
 ### More Information
 
@@ -24,5 +24,5 @@ DataWhale Summer Camp, founded in 2018, is China’s largest open-source AI lear
 ## Publisher
 
 - **Name:** Ait Haddou Yasmine
-- **Role:** Student at Northwestern Polytechnical University, China
+- **Role:** A Student at Northwestern Polytechnical University, China
 - **Email:** [jessahcollabs1@gmail.com](mailto:jessahcollabs1@gmail.com)
