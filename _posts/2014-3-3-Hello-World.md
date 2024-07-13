@@ -1,6 +1,10 @@
 ---
 layout: post
-title: You're up and running!
+title: >-
+  ### Datawhale Shatters the Records!!!  -FREE Enrollement and Prestigious
+  Awards?!!
 ---
-## My first Blog
-## congrats to mee!!
+## “For the learner, with the learner”, Since 2018.
+ Datawhale remains true to us.
+ 
+ 
