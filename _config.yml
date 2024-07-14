@@ -64,7 +64,7 @@ exclude:
   - CNAME
 
 # Remote theme
-# remote_theme: justgoodthemes/scriptor-jekyll-theme
+remote_theme: justgoodthemes/scriptor-jekyll-theme
 
 # Theme settings from Scriptor theme
 title: "Scriptor"
