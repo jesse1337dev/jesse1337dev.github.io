@@ -5,6 +5,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+  # Configuration for excerpts
+excerpt_separator: ""
+
+
 # Site language
 lang: en-US
 
@@ -70,6 +74,5 @@ sass:
   sass_dir: _sass
   style: compressed
   
-  # Configuration for excerpts
-excerpt_separator: ""
+
 
