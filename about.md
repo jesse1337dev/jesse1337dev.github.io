@@ -9,7 +9,7 @@ Datawhale Summer Camp, founded in 2018, is China’s largest open-source AI lear
 
 ### More Information
 
-   # <span style="color:blue">**FAQs**</span>
+   <span style="color:blue">**FAQs**</span>
 
 ## Key Dates
 
