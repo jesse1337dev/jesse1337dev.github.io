@@ -10,7 +10,7 @@ avatar: https://khoinguonsangtao.vn/wp-content/uploads/2022/09/avatar-minion-lie
 # Flags below are optional
 footer-links:
   github: https://github.com/datawhalechina
-  twitter: jekyllrb
+  twitter: 
   rss: example.com/rss # just type anything here for a working RSS icon
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -67,8 +67,8 @@ exclude:
 remote_theme: justgoodthemes/scriptor-jekyll-theme
 
 # Theme settings from Scriptor theme
-title: "Scriptor"
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+title: "A SUMMER OF LEARNING"
+description: "For the learner, with the learner, Since 2018."
 favicon: images/favicon.png
 navigation:
   - text: Home
