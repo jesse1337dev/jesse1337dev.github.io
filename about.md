@@ -14,7 +14,7 @@ Founded in 2018, DataWhale Summer Camp is China’s largest AI learning communit
 
 ## Key Dates
 
-- **Registration:** July 21 - July 27, 2024
+- **Registration:** July 21st - July 27th, 2024
 
 
 
