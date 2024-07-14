@@ -12,7 +12,7 @@ lang: en-US
 title: "Scriptor"
 
 # A description of your site for meta tag, search engine results.
-description: ""For the learner, with the learner", Since 2018."
+description: " "For the learner, with the learner" , Since 2018."
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
