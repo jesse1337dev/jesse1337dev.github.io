@@ -29,4 +29,4 @@ Founded in 2018, DataWhale Summer Camp is China’s largest AI learning communit
 
 - **Name:** Ait Haddou Yasmine
 - **Role:** A Student at Northwestern Polytechnical University, China
-- **Email:** [jessahcollabs1@gmail.com](mailto:jessahcollabs1@gmail.com)
+- **Email:** [Yasminait@gmail.com](mailto:jessahcollabs1@gmail.com)
