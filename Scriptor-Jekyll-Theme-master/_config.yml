@@ -9,7 +9,7 @@
 lang: en-US
 
 # Site title
-title: "Datawhale Shatters the Records! -FREE Enrollement and Prestigious Awards."
+title: "Datawhale Shatters the Records!"
 
 # A description of your site for meta tag, search engine results.
 description: " "For the learner, with the learner" , Since 2018."
@@ -69,3 +69,7 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+  
+  # Configuration for excerpts
+excerpt_separator: ""
+
