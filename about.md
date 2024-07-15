@@ -5,9 +5,8 @@ permalink: /about/
 ---
 Founded in 2018, DataWhale Summer Camp is China’s largest AI learning community, providing accessible education in machine learning, NLP, CV, and more.
 
-                    
-                  [FAQs](https://jesse1337dev.github.io/FAQs/)
-
+**FAQs*  
+[FAQS](https://jesse1337dev.github.io/FAQs/)
 
 ## Key Dates
 
