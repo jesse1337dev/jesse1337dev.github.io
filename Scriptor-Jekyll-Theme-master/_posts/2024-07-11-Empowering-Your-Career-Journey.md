@@ -1,5 +1,4 @@
 *Now is the opportune moment to make an investment in your future through DataWhale Summer Camp. As the AI and technology sectors undergo rapid evolution, acquiring new skills can profoundly elevate your career prospects. Seize this pivotal opportunity to cultivate invaluable competencies that will distinguish you in today's fiercely competitive job market. At DataWhale, we are committed to unlocking potential through knowledge and opportunity. Our Summer Camp is meticulously crafted to equip participants with practical, high-demand skills essential for advancing their careers.*
-
 ![hope.jpg]({{site.baseurl}}/images/unleashpjpg.jpg)
 
  
