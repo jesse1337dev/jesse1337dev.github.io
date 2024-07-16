@@ -78,3 +78,8 @@ $palette: (
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .broad-image-header {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
