@@ -58,10 +58,11 @@ $palette: (
 
 
 
+
 .broad-image-header {
   height: 400px; /* Adjust height as needed */
   background-image: url('{{ site.baseurl }}/images/logodtw.png'); /* Replace with your broad image path */
-  background-size: cover;
+  background-size: contain; /* Ensure the entire image fits within the container */
   background-position: center;
   text-align: center;
   color: #fff;
@@ -72,6 +73,6 @@ $palette: (
   margin-left: auto; /* Auto margin to center horizontally */
   margin-right: auto; /* Auto margin to center horizontally */
   max-width: 800px; /* Adjust maximum width as needed */
-  width: 70%; /* Ensure it takes full width of its container */
+  width: 100%; /* Ensure it takes full width of its container */
 }
 
