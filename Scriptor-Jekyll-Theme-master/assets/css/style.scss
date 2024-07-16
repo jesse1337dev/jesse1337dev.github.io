@@ -58,22 +58,34 @@ $palette: (
 
 
 
-// Custom styles for broad image header
-.broad-image-header {
+.broad-picture-header {
+  position: relative;
+  width: 100%;
   height: 100vh; /* Full viewport height */
-  background-image: url('images/logogo.jpg'); /* Adjust path as needed */
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: #fff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden;
+  text-align: center; /* Center text horizontally */
 }
 
-.broad-image-header .site-info {
-  display: none; /* Hide site info in the broad image header */
+.broad-picture-header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the header area */
 }
 
-// Additional styles for other elements (if needed)...
+.broad-picture-header .overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.broad-picture-header .site-name,
+.broad-picture-header .site-description {
+  color: white; /* Ensure text is visible */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add text shadow for better readability */
+}
+
