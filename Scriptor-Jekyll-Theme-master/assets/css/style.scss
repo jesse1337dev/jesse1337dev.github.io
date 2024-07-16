@@ -69,9 +69,6 @@ $palette: (
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: auto; /* Auto margin to center horizontally */
+  margin-right: auto; /* Auto margin to center horizontally */
 }
-
-.broad-image-header .site-info {
-  display: none; /* Hide site info in the broad image header */
-}
-
