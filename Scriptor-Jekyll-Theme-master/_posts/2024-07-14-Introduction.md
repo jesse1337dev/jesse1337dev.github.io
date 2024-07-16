@@ -1,6 +1,7 @@
 
 *By 2023, DataWhale’s AI Summer Camp had attracted 18,827 participants from 1,387 universities worldwide, making it one of the largest AI summer camps. This year, we have already surpassed that number, with more than 19,000 participants from 1,607 universities globally. This record-breaking participation is a testament to the commitment and the impact DataWhale has on learners worldwide.*
-![dtw.jpg]({{site.baseurl}}/images/dtw.jpg)
+![hope.jpg]({{site.baseurl}}/images/hope.jpg)
+
 
  
  
