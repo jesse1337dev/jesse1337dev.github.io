@@ -44,7 +44,7 @@ $palette: (
 @import "functions";
 @import "icons";
 @import "reset";
-@import "general";
+@import "general";    
 @import "structure";
 @import "site-header";
 @import "content";
@@ -52,7 +52,7 @@ $palette: (
 @import "posts-navigation";
 @import "site-footer";
 @import "animations";
-@import "prism";
+@import "prism
 
 
 
@@ -60,7 +60,7 @@ $palette: (
 // Custom styles for broad image header
 .broad-image-header {
   height: 100vh; /* Full viewport height */
-  background-image: url(''); /* Adjust path as needed */
+  background-image: url('Scriptor-Jekyll-Theme-master/logogo.jpg'); /* Adjust path as needed */
   background-size: cover;
   background-position: center;
   text-align: center;
