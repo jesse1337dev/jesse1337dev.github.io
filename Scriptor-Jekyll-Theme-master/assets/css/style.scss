@@ -62,24 +62,23 @@ $palette: (
 
 
 .broad-image-header {
-  height: 400px; /* Adjust height as needed */
-  background-image: url('{{ site.baseurl }}/images/logodtw.png'); /* Path to your header image */
-  background-size: contain; /* Ensure the image is contained within the header */
-  background-repeat: no-repeat; /* Prevent image from repeating */
-  background-position: center center; /* Center the image horizontally and vertically */
-  text-align: center;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto; /* Auto margin to center horizontally */
-  margin-right: auto; /* Auto margin to center horizontally */
-  max-width: 1000px; /* Adjust maximum width as needed */
-  width: 100%; /* Ensure it takes full width of its container */
+    height: 400px; /* Adjust height as needed */
+    background-image: url('{{ site.baseurl }}/images/logodtw.png'); /* Path to your header image */
+    background-size: cover; /* Ensure the image covers the entire header */
+    background-position: center center; /* Center the image horizontally and vertically */
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; /* Auto margin to center horizontally */
+    margin-right: auto; /* Auto margin to center horizontally */
+    max-width: 1000px; /* Adjust maximum width as needed */
+    width: 100%; /* Ensure it takes full width of its container */
 }
 
 .broad-image-header .site-info {
-  display: none; /* Hide site info in the broad image header */
+    display: none; /* Hide site info in the broad image header */
 }
 
