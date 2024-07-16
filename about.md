@@ -16,6 +16,7 @@ Founded in 2018, DataWhale Summer Camp is China’s largest AI learning communit
 ## Contact DataWhale
 
 - **Email:** [opensource@datawhale.club](mailto:opensource@datawhale.club)
+- **Wechat:** CindyGan166
 
 
 
