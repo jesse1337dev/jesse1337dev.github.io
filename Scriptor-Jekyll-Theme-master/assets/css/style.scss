@@ -34,7 +34,7 @@ $font: (
 $palette: (
   accent:    {{ accent }},
   primary:   #6b747a,
-  secondary: #2c343c,
+  secondary: #2c343c,  
   meta:      #9ba6ad,
   border:    #d7d7d7,
   bg:        #fbfbfb
@@ -57,10 +57,11 @@ $palette: (
 
 
 
+
 // Custom styles for broad image header
 .broad-image-header {
   height: 100vh; /* Full viewport height */
-  background-image: url('Scriptor-Jekyll-Theme-master/logogo.jpg'); /* Adjust path as needed */
+  background-image: url('/images/logodtw.png'); /* Adjust path as needed */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -74,3 +75,5 @@ $palette: (
 .broad-image-header .site-info {
   display: none; /* Hide site info in the broad image header */
 }
+
+// Additional styles for other elements (if needed)...
