@@ -53,3 +53,24 @@ $palette: (
 @import "site-footer";
 @import "animations";
 @import "prism";
+
+
+
+
+// Custom styles for broad image header
+.broad-image-header {
+  height: 100vh; /* Full viewport height */
+  background-image: url(''); /* Adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.broad-image-header .site-info {
+  display: none; /* Hide site info in the broad image header */
+}
