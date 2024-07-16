@@ -1,5 +1,5 @@
 
-*In today’s competitive landscape, finding affordable, high-quality educational opportunities that offer tangible benefits can be challenging. Many learners struggle with accessing resources that can truly impact their careers.
+*In today’s competitive landscape, finding affordable, high-quality educational opportunities that offer tangible benefits can be challenging. Many learners struggle with accessing resources that can truly impact their careers.*
 ![unleashpjpg.jpg]({{site.baseurl}}/images/unleashpjpg.jpg)
 
 
