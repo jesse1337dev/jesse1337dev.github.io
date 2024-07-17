@@ -95,4 +95,3 @@ footer:
 # Pagination settings specific to Scriptor theme
 paginate: 3
 paginate_path: '/page:num/'
-
