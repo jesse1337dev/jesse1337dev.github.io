@@ -13,10 +13,10 @@ excerpt_separator: ""
 lang: en-US
 
 # Site title
-title: "A Summer Of Learning"
+title: ""
 
 # A description of your site for meta tag, search engine results.
-description: " "For the learner, with the learner" , Since 2018."
+description: ""
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -73,6 +73,3 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
-  
-
-
