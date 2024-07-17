@@ -55,31 +55,3 @@ $palette: (
 @import "prism";
 
 
-
-
-
-.broad-image-header {
-    height: 400px; /* Adjust height as needed */
-    background-image: url('{{ site.baseurl }}/images/darwin.jpg'); /* Path to your new header image */
-    background-size: cover; /* Ensure the image covers the entire header */
-    background-position: center center; /* Center the image horizontally and vertically */
-    text-align: center;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto; /* Center horizontally */
-    max-width: 1000px; /* Adjust maximum width as needed */
-    width: 100%; /* Ensure it takes full width of its container */
-}
-
-.site-title, .site-description {
-    text-align: center;
-}
-
-@media (max-width: 768px) {
-    .broad-image-header {
-        height: 300px; /* Adjust height for smaller screens */
-    }
-}
