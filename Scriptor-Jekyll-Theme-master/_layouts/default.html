@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  <title>{{ site.name }}</title>
 
   {% include meta.html %}
 
@@ -19,7 +19,7 @@
     .broad-image-header {
       height: 400px; /* Adjust height as needed */
       background-image: url('{{ site.baseurl }}/images/logodtw.png'); /* Replace with your broad image path */
-      background-size: cover;
+      background-size: cover; /* Ensure the entire image fits within the container */
       background-position: center;
       text-align: center;
       color: #fff;
@@ -27,10 +27,10 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-left: auto; /* Auto margin to center horizontally */
-      margin-right: auto; /* Auto margin to center horizontally */
-      max-width: 1000px; /* Adjust maximum width as needed */
+      margin: 0 auto; /* Auto margin to center horizontally */
+      max-width: 100%; /* Ensure it takes full width of its container */
       width: 100%; /* Ensure it takes full width of its container */
+      padding: 0; /* Remove padding to ensure full width */
     }
 
     .broad-image-header .site-info {
@@ -86,4 +86,3 @@
   {% include analytics.html %}
 </body>
 </html>
-
