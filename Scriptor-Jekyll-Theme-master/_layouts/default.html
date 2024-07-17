@@ -33,8 +33,8 @@
       padding: 0; /* Remove padding to ensure full width */
     }
 
-    .broad-image-header .site-info {
-      display: none; /* Hide site info in the broad image header */
+    .broad-image-header .site-avatar {
+      display: none; /* Hide the avatar in the broad image header */
     }
 
     .wrapper-footer {
@@ -60,7 +60,7 @@
       <!-- Broad Image Header -->
       <header class="masthead broad-image-header">
         <!-- Link to homepage (optional avatar) -->
-        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
       </header>
     </div>
   </div>
