@@ -14,44 +14,43 @@
 
   <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   
- <style>
-  /* Custom CSS for broad image header */
-  .broad-image-header {
-    background-image: url('{{ site.baseurl }}/images/darwin.jpg'); /* Use header image as background */
-    background-size: 110%; /* Zoom out the background image by 10% */
-    background-position: center center; /* Center the background image */
-    height: 200px; /* Adjust the height as needed */
-    text-align: center;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto; /* Center the header horizontally */
-    max-width: 100%; /* Ensure it takes full width of its container */
-    padding: 0 20px; /* Optional: Add padding to match content area */
-  }
+  <style>
+    /* Custom CSS for broad image header */
+    .broad-image-header {
+      background-image: url('{{ site.baseurl }}/images/darwin.jpg'); /* Use header image as background */
+      background-size: 110%; /* Zoom out the background image by 10% */
+      background-position: center center; /* Center the background image */
+      height: 200px; /* Adjust the height as needed */
+      text-align: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto; /* Center the header horizontally */
+      max-width: 100%; /* Ensure it takes full width of its container */
+      padding: 0 20px; /* Optional: Add padding to match content area */
+    }
 
-  .broad-image-header .site-info {
-    display: none; /* Hide site info in the broad image header */
-  }
+    .broad-image-header .site-info {
+      display: none; /* Hide site info in the broad image header */
+    }
 
-  .wrapper-footer {
-    background-color: #f0f0f0; /* Example background color for footer */
-    padding: 20px;
-    text-align: center;
-  }
+    .wrapper-footer {
+      background-color: #f0f0f0; /* Example background color for footer */
+      padding: 20px;
+      text-align: center;
+    }
 
-  .wrapper-footer .site-name {
-    font-size: 2rem; /* Example font size */
-    margin-bottom: 10px; /* Example spacing */
-  }
+    .wrapper-footer .site-name {
+      font-size: 2rem; /* Example font size */
+      margin-bottom: 10px; /* Example spacing */
+    }
 
-  .wrapper-footer .site-description {
-    color: #666; /* Example color */
-  }
-</style>
-
+    .wrapper-footer .site-description {
+      color: #666; /* Example color */
+    }
+  </style>
 </head>
 
 <body>
@@ -68,6 +67,15 @@
     <!-- Main content -->
     {{ content }}
   </div>
+
+  <!-- Navigation -->
+  <nav class="site-navigation">
+    <ul class="menu">
+      {% for item in site.navigation %}
+        <li class="menu-item"><a href="{{ item.url }}">{{ item.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 
   <div class="wrapper-footer">
     <div class="container">
@@ -86,4 +94,3 @@
   {% include analytics.html %}
 </body>
 </html>
-
