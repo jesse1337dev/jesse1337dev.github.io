@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>{{ site.title }}</title>
-  {% include meta.html %}
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <!-- Additional links if needed -->
-</head>
-<body>
-  <div class="wrapper-masthead">
-    <div class="container">
-      <!-- Header Section -->
-      <header class="masthead">
-        <!-- Title and description -->
-        <div class="site-title">
-          <p>{{ site.description }}</p>
-        </div>
-        <!-- Avatar/Image -->
-        <div class="avatar-container">
-          <img src="{{ site.baseurl }}/images/darwin.jpg" class="site-avatar" alt="Avatar">
-        </div>
-      </header>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+        </header>
+      </div>
     </div>
-  </div>
 
-  <!-- Main Content Section -->
-  <div id="main" role="main" class="container">
-    <!-- Main content -->
-    {{ content }}
-  </div>
-
-  <!-- Footer Section -->
-  <div class="wrapper-footer">
-    <div class="container">
-      <footer class="footer">
-        <p>{{ site.footer.content }}</p>
-        <!-- Social icons if enabled -->
-        {% if site.footer.has_social %}
-          <!-- Include your social media icons or links here -->
-        {% endif %}
-      </footer>
+    <div id="main" role="main" class="container">
+      {{ content }}
     </div>
-  </div>
 
-  <!-- Include analytics script -->
-  {% include analytics.html %}
-</body>
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
 </html>
-
