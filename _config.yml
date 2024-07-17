@@ -1,5 +1,8 @@
+# Name of your site (displayed in the header)
+name: Your Site Name
+
 # Short bio or description (displayed in the header)
-description: ""
+description: Your site description
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: images/darwin.jpg
@@ -7,7 +10,7 @@ avatar: images/darwin.jpg
 # Flags below are optional
 footer-links:
   github: https://github.com/datawhalechina
-  twitter: ""
+  twitter: 
   rss: example.com/rss # just type anything here for a working RSS icon
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -64,8 +67,20 @@ exclude:
 remote_theme: justgoodthemes/scriptor-jekyll-theme
 
 # Theme settings from Scriptor theme
-title: ""
-description: ""
+title: "Datawhale Shatters the Records! -FREE Enrollement and Prestigious Awards."
+description: "For the learner, with the learner, Since 2018."
+favicon: images/favicon.png
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Style Guide
+    url: /style-guide/
+  - text: Tags
+    url: /tags/
+  - text: Download
+    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
 # Disqus and Google Analytics from Scriptor theme
 disqus: justgoodthemes
@@ -80,3 +95,4 @@ footer:
 # Pagination settings specific to Scriptor theme
 paginate: 3
 paginate_path: '/page:num/'
+
