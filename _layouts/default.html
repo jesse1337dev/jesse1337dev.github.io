@@ -17,7 +17,7 @@
   <style>
     /* Custom CSS for broad image header */
     .broad-image-header {
-      background-image: url('{{ site.baseurl }}/{{ site.avatar }}'); /* Use site avatar as background image */
+      background-image: url('{{ site.baseurl }}/images/darwin.jpg'); /* Use header image as background */
       background-size: cover; /* Cover the entire header area */
       background-position: center center; /* Center the background image */
       height: 400px; /* Adjust the height as needed */
@@ -58,8 +58,7 @@
     <div class="container">
       <!-- Broad Image Header -->
       <header class="masthead broad-image-header">
-        <!-- Link to homepage (optional avatar) -->
-        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <!-- Header image as background, no avatar -->
       </header>
     </div>
   </div>
