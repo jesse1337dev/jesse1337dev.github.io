@@ -36,13 +36,15 @@
 
 .avatar-container {
   margin-top: 1.5em;
-  width: 100%;
+  width: 100%; /* Ensures the container spans the full width */
+  display: flex; /* Ensures the image is centered */
+  justify-content: center;
 }
 
 .site-avatar {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
+  width: 100%; /* Makes the image take up full width of its container */
+  height: auto; /* Ensures the image scales proportionally */
+  max-width: 100%; /* Prevents image overflow */
 }
 
 /* Navigation */
