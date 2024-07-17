@@ -59,8 +59,16 @@
     <div class="container">
       <!-- Broad Image Header -->
       <header class="masthead broad-image-header">
-        <!-- Link to homepage (optional avatar) -->
+        <!-- Link to homepage -->
         <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+        <!-- Navigation -->
+        <nav class="site-navigation">
+          <ul class="menu">
+            {% for item in site.navigation %}
+            <li class="menu-item"><a href="{{ item.url }}">{{ item.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
       </header>
     </div>
   </div>
@@ -86,3 +94,4 @@
   {% include analytics.html %}
 </body>
 </html>
+
