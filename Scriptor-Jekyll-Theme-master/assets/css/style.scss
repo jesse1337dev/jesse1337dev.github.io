@@ -54,8 +54,6 @@ $palette: (
 @import "animations";
 @import "prism";
 
-
-
 .broad-image-header {
   height: 400px; /* Adjust height as needed */
   background-image: url('{{ site.baseurl }}/images/logodtw.png'); /* Replace with your broad image path */
@@ -72,4 +70,3 @@ $palette: (
   width: 100%; /* Ensure it takes full width of its container */
   padding: 0; /* Remove padding to ensure full width */
 }
-
