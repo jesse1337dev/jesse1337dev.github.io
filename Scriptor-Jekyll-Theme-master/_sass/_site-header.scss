@@ -36,17 +36,13 @@
 
 .avatar-container {
   margin-top: 1.5em;
+  width: 100%;
 }
 
 .site-avatar {
-  max-width: 100%; /* Makes sure the image is responsive */
+  width: 100%;
   height: auto;
-}
-
-@media (min-width: 768px) {
-  .site-avatar {
-    max-width: 50%; /* Adjust the width as per your design */
-  }
+  max-width: 100%;
 }
 
 /* Navigation */
@@ -189,4 +185,3 @@
     padding: 6.375rem 35px 2.5rem;
   }
 }
-
