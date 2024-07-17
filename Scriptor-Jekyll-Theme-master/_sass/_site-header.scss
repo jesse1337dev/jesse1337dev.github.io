@@ -103,8 +103,6 @@
 @media only screen and (max-width: 800px) {
   #menu-open {
     display: block;
-    -ms-flex: 0 0 auto;
-    -webkit-flex: 0 0 auto;
     flex: 0 0 auto;
     margin-left: auto;
   }
@@ -131,7 +129,7 @@
     visibility: hidden;
     z-index: -1;
   }
-  
+
   .site-navigation-wrap {
     height: 100%;
     overflow: auto;
