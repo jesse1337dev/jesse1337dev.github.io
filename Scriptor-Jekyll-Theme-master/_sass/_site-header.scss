@@ -88,6 +88,20 @@
   }
 }
 
+/* Header photo */
+.header-photo {
+  display: block; /* Makes the image a block-level element */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; /* Makes sure the image is responsive */
+}
+
+@media (min-width: 768px) {
+  .header-photo {
+    max-width: 50%; /* Adjust the width as per your design */
+  }
+}
+
 @media only screen and (max-width: 800px) {
   #menu-open {
     display: block;
@@ -179,4 +193,3 @@
     padding: 6.375rem 35px 2.5rem;
   }
 }
-
