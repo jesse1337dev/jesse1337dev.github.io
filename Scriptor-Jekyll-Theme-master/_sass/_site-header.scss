@@ -88,16 +88,22 @@
   }
 }
 
-/* Header photo */
-.header-photo {
-  display: block; /* Makes the image a block-level element */
+/* Avatar container and image */
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem; /* Optional: Add some space above the image */
+}
+
+.site-avatar {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%; /* Makes sure the image is responsive */
 }
 
 @media (min-width: 768px) {
-  .header-photo {
+  .site-avatar {
     max-width: 50%; /* Adjust the width as per your design */
   }
 }
